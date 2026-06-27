@@ -1,0 +1,11 @@
+﻿{
+  "experiment": "cpu_gpu_batch_sweep",
+  "batch_sizes": [1, 2, 4, 8, 16, 32, 64],
+  "warmup_iterations": 25,
+  "measurement_iterations": 200,
+  "input_dim": 1024,
+  "hidden_dim": 2048,
+  "output_dim": 512,
+  "depth": 4,
+  "measure_transfer": true
+}
