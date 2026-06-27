@@ -21,6 +21,6 @@ python benchmarks/benchmark_inference.py `
   --output-dim 512 `
   --depth 4 `
   --measure-transfer `
-  --output results/gpu_batch_sweep.json`
+  --output results/gpu_batch_sweep.json
 
 python scripts/summarize_results.py --input results/gpu_batch_sweep.json
